@@ -1,0 +1,19 @@
+# In VS Code, create .gitignore file with:
+
+# Secrets and credentials
+config.env
+*.env
+.env
+secrets/
+*.key
+*.pem
+
+# Data files (keep repo lightweight)
+data/*.csv
+data/*.parquet
+data/raw/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
