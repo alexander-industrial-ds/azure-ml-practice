@@ -9,7 +9,7 @@ secrets/
 *.pem
 
 # Data files (keep repo lightweight)
-data/*.csv
+
 data/*.parquet
 data/raw/
 
