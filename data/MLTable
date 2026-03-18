@@ -8,11 +8,10 @@
 # =============================================================================
 
 paths:
-  - file: ./train.csv       # path relative to THIS file — adjust to your filename
+  - file: ./diabetes.csv       # path relative to THIS file — adjust to your filename
 
 transformations:
   - read_delimited:
       delimiter: ','
-      encoding: utf8
-      header: all_files_same_headers
-      include_path_column: false
+      encoding: 'ascii'
+
